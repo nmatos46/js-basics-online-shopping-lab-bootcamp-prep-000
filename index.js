@@ -85,7 +85,7 @@ function removeFromCart(item) {
     //if item isn't found in the cart
     return "That item is not in your cart."
   }else{
-    //if the 1 item is in the cart, remove it
+    //if the item is in the cart, remove the first occurence of it
     cart.splice(itemIndex,1)
   }
 }
