@@ -26,6 +26,14 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  if (cart.length === 0){
+    //If you have no items in your cart
+    return "Your shopping cart is empty."
+  }else{
+    var cartInfo = "In your cart, you have " //initialize string to be returned
+    var itemInfo = "" //initialize string to add to cartInfo
+    var 
+  }
 }
 
 function total() {
