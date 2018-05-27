@@ -46,7 +46,7 @@ function viewCart() {
       //record itemInfo to add to cartInfo
       if (cart.length === 1){
         //if there's only one item in the array
-        itemInfo = `${item} at $${price}.`
+        itemInfo = `${cart[i].itemName} at $${cart[i].itemPrice}.`
       } else if (i === cart.length - 1){
         //if item identified is the last item left in the cart
         itemInfo = `and ${item} at $${price}.`
