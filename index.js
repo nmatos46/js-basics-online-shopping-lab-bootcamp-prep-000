@@ -30,9 +30,14 @@ function viewCart() {
     //If you have no items in your cart
     return "Your shopping cart is empty."
   }else{
+    //since there must be items in the cart....
+   
     var cartInfo = "In your cart, you have " //initialize string to be returned
     var itemInfo = "" //initialize string to add to cartInfo
-    var 
+    var itemName = "" //initialize string storing item Name to add to itemInfo
+    var itemPrice = 0 //initialize number storing item price to add to itemInfo
+    
+    if
   }
 }
 
