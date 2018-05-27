@@ -50,13 +50,13 @@ function viewCart() {
         //if item identified is the last item left in the cart
         itemInfo = `and ${item} at ${price}.`
       }else{
-        //since the item identified is certainly not last in the cartInfo
+        //since the item identified is certainly not last in the cart
         itemInfo = `${item} at ${price}, `
-        
       }
       
       cartInfo += itemInfo
       
+      return cartInfo
       
     }
   }
