@@ -11,7 +11,11 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- itemPrice = Math.floor(Math.random()*100)
+ 
+ //Randomly assign a price between 1 and 100
+ itemPrice = Math.floor((Math.random()*100) + 1)
+ 
+ cart.push(Object.assign({},{'itemName':item, 'itemPrice':itemPrice}))
  
  
 }
