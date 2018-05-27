@@ -79,7 +79,12 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var itemIndex = cart.indexOf(item) //find item in cart if possible
+  //get an array of item names
+  var names = cart.map( function(currentObj){
+    return currentObj.itemName
+  })
+  
+  var itemIndex = names.indexOf(item) //find item in cart if possible
   
   if (itemIndex===-1){
     //if item isn't found in the cart
