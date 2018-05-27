@@ -63,9 +63,9 @@ function viewCart() {
 
 function total() {
   // write your code here
-  cart.reduce( function (total,currentArr){
-    
-  }
+  cart.reduce( function (total,currentObj){
+    return total + currentObj.itemPrice
+  })
 }
 
 function removeFromCart(item) {
