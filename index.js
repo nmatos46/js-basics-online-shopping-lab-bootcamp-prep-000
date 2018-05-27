@@ -53,7 +53,7 @@ function viewCart() {
         cartInfo += "I made it into this condition"
       } else{
         //since the item identified is certainly not last in the cart
-        itemInfo = `${item} at $${price}, `
+        itemInfo = `${item} at $${price}, (i is ${i}) `
       }
       
       cartInfo += itemInfo
