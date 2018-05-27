@@ -37,7 +37,12 @@ function viewCart() {
     var itemName = "" //initialize string storing item Name to add to itemInfo
     var itemPrice = 0 //initialize number storing item price to add to itemInfo
     
-    if
+    //iterate through cart to identify cart items
+    for (var i=0; i<cart.length; i++){
+      
+      
+      
+    }
   }
 }
 
