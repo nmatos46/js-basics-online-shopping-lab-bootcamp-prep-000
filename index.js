@@ -18,7 +18,7 @@ function addToCart(item) {
  //Create object with name of the item as a key and price as a value
  var itemObj = Object.assign({},{'itemName':item, 'itemPrice':itemPrice})
  
- cart.push(itemObj)
+ cart.push(itemObj) //add item object to cart
  
  return `${item} has been added to your cart.`
  
