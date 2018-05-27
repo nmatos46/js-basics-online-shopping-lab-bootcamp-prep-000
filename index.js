@@ -45,8 +45,8 @@ function viewCart() {
       //record itemInfo to add to cartInfo
       if (i === cart.length - 1 && cart.length === 1){
         itemInfo = `${item} at ${price}.`
-      }else if (i === cart.length -1 && cart.length != 1){
-        
+      }else if (i === cart.length -1 && cart.length !== 1){
+        itemInfo = `and ${item} at ${price}
       }
       
       cartInfo += itemInfo
