@@ -63,8 +63,12 @@ function viewCart() {
 
 function total() {
   // write your code here
-  var prices = cart.map( function (total,currentObj){
-    return total + currentObj.itemPrice
+  var prices = cart.map( function (currentObj){
+    return currentObj.itemPrice
+  })
+  
+  var sum = prices.reduce(function(ttl, currentPrice){
+    return ttl + currentPrice
   })
   
   return sum
