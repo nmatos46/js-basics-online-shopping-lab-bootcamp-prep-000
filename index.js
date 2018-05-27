@@ -87,6 +87,7 @@ function removeFromCart(item) {
   }else{
     //if the item is in the cart, remove the first occurence of it
     cart.splice(itemIndex,1)
+    return cart
   }
 }
 
