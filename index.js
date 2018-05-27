@@ -52,7 +52,7 @@ function viewCart() {
         itemInfo = `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
       } else{
         //since the item identified is certainly not last in the cart
-        itemInfo = `${item} at $${price}, `
+        itemInfo = `${cart[i].itemName} at $${cart[i].itemPrice}, `
       }
       
       //add item info to cart description
