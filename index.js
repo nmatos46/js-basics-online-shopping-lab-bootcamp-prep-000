@@ -39,7 +39,7 @@ function viewCart() {
     var itemObj = {} //initialize object to that stores item information
     
     //iterate through cart to identify cart items
-    for (var i=0; i<cart.length; i++){
+    for (var i=0; i < cart.length; i++){
       itemObj = cart[i]
       item = itemObj.itemName //store item name
       price = itemObj.itemPrice //store item price
