@@ -31,7 +31,6 @@ function viewCart() {
     return "Your shopping cart is empty."
   }else{
     //since there must be items in the cart....
-    var cart = getCart()
    
     var cartInfo = "In your cart, you have " //initialize string to be returned
     var itemInfo = "" //initialize string to add to cartInfo
