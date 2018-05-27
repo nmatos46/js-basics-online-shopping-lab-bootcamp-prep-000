@@ -50,7 +50,6 @@ function viewCart() {
       } else if (i === cart.length - 1){
         //if item identified is the last item left in the cart
         itemInfo = `and ${item} at $${price}.`
-        cartInfo += "I made it into this condition"
       } else{
         //since the item identified is certainly not last in the cart
         itemInfo = `${item} at $${price}, `
