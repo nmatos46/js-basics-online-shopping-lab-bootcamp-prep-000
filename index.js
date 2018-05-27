@@ -55,11 +55,12 @@ function viewCart() {
         itemInfo = `${item} at $${price}, `
       }
       
+      //add item info to cart description
       cartInfo += itemInfo
       
     }
     
-    
+    //return cart description
     return cartInfo
   }
 }
