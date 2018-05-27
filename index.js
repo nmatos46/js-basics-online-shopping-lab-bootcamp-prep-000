@@ -59,6 +59,8 @@ function viewCart() {
       cartInfo += itemInfo
       
     }
+    
+    
     return cartInfo
   }
 }
