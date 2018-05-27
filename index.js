@@ -16,7 +16,7 @@ function addToCart(item) {
  var itemPrice = Math.floor((Math.random()*100) + 1)
  
  //Create object with name of the item as a key and price as a value
- var itemObj = Object.assign({},{'itemName':item, 'itemPrice':itemPrice})
+ var itemObj = {'itemName':item, 'itemPrice':itemPrice}
  
  cart.push(itemObj) //add item object to cart
  
