@@ -45,7 +45,7 @@ function viewCart() {
       price = itemObj.itemPrice //store item price
       
       //record itemInfo to add to cartInfo
-      if (i === cart.length - 1 && cart.length === 1){
+      if (cart.length === 1){
         //if there's only one item in the array
         itemInfo = `${item} at $${price}.`
       }else if (i === cart.length - 1){
