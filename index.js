@@ -79,11 +79,13 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var itemIndex = cart.indexOf(item)
+  var itemIndex = cart.indexOf(item) //find item in cart if possible
   
   if (itemIndex===-1){
+    //if item isn't found in the cart
     return "That item is not in your cart."
   }else{
+    //if the 1 item is in the cart, remove it
     cart.splice(itemIndex,1)
   }
 }
