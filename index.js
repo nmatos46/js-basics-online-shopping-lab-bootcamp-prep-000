@@ -34,14 +34,10 @@ function viewCart() {
    
     var cartInfo = "In your cart, you have " //initialize string to be returned
     var itemInfo = "" //initialize string to add to cartInfo
-    var item = "" //initialize string storing item Name to add to itemInfo
-    var price = 0 //initialize number storing item price to add to itemInfo
-    var itemObj = {} //initialize object to that stores item information
+    
     
     //iterate through cart to identify cart items
     for (var i=0; i<cart.length; i++){
-      item = cart[i].itemName //store item name
-      price = cart[i].itemPrice //store item price
       
       //record itemInfo to add to cartInfo
       if (cart.length === 1){
