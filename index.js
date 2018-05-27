@@ -43,7 +43,7 @@ function viewCart() {
       price = cart[i][itemPrice] //store item price
       
       //record itemInfo to add to cartInfo
-      if
+      if ()
       
       
     }
