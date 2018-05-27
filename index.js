@@ -63,7 +63,9 @@ function viewCart() {
 
 function total() {
   // write your code here
-  cart.reduce(total,currentArr)
+  cart.reduce( function (total,currentArr){
+    
+  }
 }
 
 function removeFromCart(item) {
