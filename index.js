@@ -40,9 +40,8 @@ function viewCart() {
     
     //iterate through cart to identify cart items
     for (var i=0; i<cart.length; i++){
-      itemObj = cart[i]
-      item = itemObj.itemName //store item name
-      price = itemObj.itemPrice //store item price
+      item = cart[i].itemName //store item name
+      price = cart[i].itemPrice //store item price
       
       //record itemInfo to add to cartInfo
       if (cart.length === 1){
